@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgueria Castelo Branco | Desde 2000</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #8B0000; /* Vermelho escuro */
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .logo-text {
+            font-size: 20px;
+            font-weight: 900;
+            color: #FFD700; /* Amarelo */
+            text-transform: uppercase;
+            line-height: 1.2;
+        }
+
+        .logo-text span {
+            display: block;
+            font-size: 12px;
+            color: #fff;
+            font-weight: 400;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80');
+            background-size: cover;
+            background-position: center;
+            border-bottom: 4px solid #FFD700;
+        }
+
+        .hero h1 {
+            font-size: 32px;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+
+        .hero p {
+            font-size: 16px;
+            margin-bottom: 30px;
+            color: #ddd;
+            font-weight: 400;
+        }
+
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 15px 35px;
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 50px;
+            font-size: 18px;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            transition: transform 0.3s;
+        }
+
+        .btn-whatsapp:hover {
+            transform: scale(1.05);
+        }
+
+        /* Informações Section */
+        .info-section {
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .info-card {
+            background-color: #2a2a2a;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 5px solid #FFD700;
+        }
+
+        .info-card h2 {
+            color: #FFD700;
+            font-size: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-card p {
+            color: #ccc;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .info-card strong {
+            color: #fff;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #111;
+            color: #666;
+            font-size: 13px;
+            border-top: 1px solid #333;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-text">
+            Castelo Branco
+            <span>Desde 2000</span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>O sabor que faz parte da sua história!</h1>
+        <p>Há 25 anos servindo os melhores hambúrgueres de Maceió.</p>
+        <a href="https://wa.me/558288450060" class="btn-whatsapp" target="_blank">Pedir no WhatsApp</a>
+    </section>
+
+    <section class="info-section">
+        <div class="info-card">
+            <h2>🕒 Horários de Funcionamento</h2>
+            <p><strong>Balcão:</strong> 18h às 05:00</p>
+            <p><strong>Delivery:</strong> 18h às 3:00</p>
+        </div>
+
+        <div class="info-card">
+            <h2>📍 Localização</h2>
+            <p>Av. Gen. Waltrudes de Almeida Rocha, 105 B<br>
+            Clima Bom, Maceió - AL</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hamburgueria Castelo Branco. Todos os direitos reservados.</p>
+        <p>Desde 2000 fazendo parte da sua história.</p>
+    </footer>
+
+</body>
+</html>
